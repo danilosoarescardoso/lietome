@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8" />
+   <meta name="description" content="Site sobre a série Lie to Me">
+   <meta name="keywords" content="lie to me, série, fox, crime">
+   <meta name="author" content="Danilo Soares">
+
+	<title>Lie to Me | C.S.I.</title>
+	<link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="print.css" media="print" />
+	<link rel="icon" type="image/jpg" href="images/favicon.ico">
+
+
+   <script>
+   function fonte(par){
+
+    //recupera o tamanho do fonte no browser
+    tamanho = document.body.style.fontSize;
+    
+    //Se o tamanho da fonte não houver registro de tamanho, sete ele como 10
+    if(!tamanho){
+        alert(tamanho);
+        tamanho = 10;
+        alert(tamanho);
+    }else{
+        //Mas se ele exitir recupere o valor pra mim
+        tamanho = parseInt(tamanho.substring(0,2));
+    }
+    //Se for pra aumentar e o tamanho ainda não passou de 15
+    if(par == 'aumentar' && tamanho < 16){
+
+        //incrementa um e seta essa tamanho pro body
+        document.body.style.fontSize = (tamanho+1) + "px";
+
+    //Se for pra diminuir e o tamanho ainda não é menor que 8
+    }else if(par == 'diminuir' && tamanho > 7){
+
+        //decrementa um e seta o tamamnho pro body
+        document.body.style.fontSize = (tamanho-1) + "px";
+    }
+}
+
+
+   </script>
+
+</head>
+<body>
+<div id="wrapper">
+
+	<header>
+		<h2>A verdade pode ser lida em nossas faces</h2>
+		</header>
+
+
+	
+	<nav><!-- top nav -->
+		
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutserie.html">Sobre a Série</a></li>
+				<li><a href="personagens.html">Personagens</a></li>
+				<li><a href="media.html">Multimídia</a></li>
+				<li><a href="about.html">Sobre o blog</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><button type="button" onclick="fonte('aumentar')">Fonte+</button></li>
+            <li><button type="button" onclick="fonte('diminuir')">Fonte-</button></li>
+
+			</ul>
+		</div>
+	</nav><!-- end of top nav -->
+	<section id="main"><!-- #main content and sidebar area -->
+			<section id="content"><!-- #content -->
+			
+        		<article><h2>Séries Relacionadas</h2>
+        		<h3>C.S.I.</h3>
+			      <img class="imgr" src="images/CSI.jpg" alt="" width="650"/><br><br>
+			      <p>CSI: Crime Scene Investigation (CSI: Investigação Criminal ou como é conhecido popularmente CSI: Las Vegas no Brasil e CSI: Crime Sob Investigação em Portugal) é uma popular e premiada série dramática americana exibida pelo canal CBS. A série é centrada nas investigações do grupo de cientistas forenses do departamento de criminalística da polícia de Las Vegas, Nevada. Estes cientistas desvendam crimes e mortes em circunstâncias misteriosas e pouco comuns. No Brasil, os fãs da série televisiva são chamados de CSIManíacos.</p>
+
+				<p>A série, criada por Anthony E. Zuiker, estreou em outubro de 2000 nos Estados Unidos (em abril de 2001 no Brasil). Foram criados dois spin-offs da série: CSI: Miami e CSI: NY, ambos foram cancelados, respectivamente, em 2012 e 2013.</p>
+
+				<p>A abertura da décima temporada foi a mais cara da história da televisão mundial, custando cerca de 400 mil dólares.</p>
+
+				<p>Em 20 de março de 2013 a série foi renovada para a sua 14ª temporada, mas Ted Danson confirmou o contrato por mais dois anos, tornando assim uma provável uma 15ª temporada.</p>
+
+				<p>Em 23 de outubro de 2013 CSI chegou a marca de 300º episódios. O episódio teve com a "visita" de Catherine Willows (Marg Helgenberger), que deixou o seu papel na série como uma das protagonistas principais na metade da 12ª Temporada. Além de Marg, Bethany Joy Lenz, de One Tree Hill e Jason Priestley, de Barrados no Baile fizeram participação especial no episódio.</p>
+
+				<p>No Brasil CSI é Transmitido pelos canais Sony e AXN (Canais Pagos).</p>
+				</article><br>
+						
+						
+			</section><!-- fim do conteúdo -->
+
+		<aside id="sidebar"><!-- sidebar -->
+				<h3>Olá!</h3>
+				<p>Bem vindo ao site Lie to Me | Mackenzie! Navegue por vídeos, fotos e informações sobre uma das melhores séries polícias da década!</p><br>
+
+					
+				<h3>Publicidade</h3>
+					 <a href="http://fox.canais-fox.pt/lie-to-me"><img src="images/fox.jpg" alt="fox"/></a><br />
+                <a href="http://www.imdb.com/title/tt2699288/"> <img src="images/wanted.jpg" alt="the wanted" /><br /><br /></a>
+
+				<h3>Fale Conosco</h3>
+					<ul>
+						<li><a href="contato.html">Contate-nos por aqui!</a></li>
+					</ul>
+
+		</aside><!-- fim da sidebar -->
+
+	</section>
+	
+		<footer><!-- rodapé -->
+		<section id="footer-area">
+
+			<section id="footer-outer-block">
+					<aside class="footer-segment">
+							<h4>Assista On-line</h4>
+								<ul>
+                           <li><a href="http://lordseriesonlinedublado.blogspot.com.br/2013/03/lie-to-me-1-temporada-dublado-pedido.html">Primeira Temporada</a></li>
+                           <li><a href="http://www.seriesfd.com/2013/01/download-lie-to-me-2a-temporada-rmvb-legendado.html">Segunda Temporada</a></li>
+                           <li><a href="http://www.tudoonlinebr.com/2010/10/assista-online-lie-to-me-3-temporada.html">Terceira Temporada</a></li>
+								</ul>
+					</aside><!-- end of #first footer segment -->
+
+					<aside class="footer-segment">
+							<h4>Séries Relacionadas</h4>
+								<ul>
+									<li><a href="mentalist.html">The Mentalist</a></li>
+									<li><a href="wat.html">Without a Trace</a></li>
+									<li><a href="csi.html">CSI</a></li>
+								</ul>
+					</aside><!-- end of #second footer segment -->
+
+					<aside class="footer-segment">
+							<h4>Curiosidades</h4>
+								<ul>
+									<li><a href="onde.html">Onde estão?</a></li>
+									<li><a href="http://fox.canais-fox.pt/lie-to-me">Site Oficial</a></li>
+									<li><a href="http://www.imdb.com/title/tt1235099/">IMDB</a></li>
+								</ul>
+					</aside><!-- end of #third footer segment -->
+					
+					<aside class="footer-segment">
+							<h4>Sobre Nós</h4>
+								<p>&copy; 2013 <a href="index.html">lietomeUPM.com</a> Site desenvolvido por Danilo Soares.</p>
+					</aside><!-- end of #fourth footer segment -->
+
+			</section><!-- end of footer-outer-block -->
+
+		</section><!-- end of footer-area -->
+	</footer>
+	
+</div>
+</body>
+</html>

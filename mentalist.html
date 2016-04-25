@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8" />
+   <meta name="description" content="Site sobre a série Lie to Me">
+   <meta name="keywords" content="lie to me, série, fox, crime">
+   <meta name="author" content="Danilo Soares">
+
+	<title>Lie to Me | The Mentalist</title>
+	<link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="print.css" media="print" />
+		<link rel="icon" type="image/jpg" href="images/favicon.ico">
+
+   <script>
+   function fonte(par){
+
+    //recupera o tamanho do fonte no browser
+    tamanho = document.body.style.fontSize;
+    
+    //Se o tamanho da fonte não houver registro de tamanho, sete ele como 10
+    if(!tamanho){
+        alert(tamanho);
+        tamanho = 10;
+        alert(tamanho);
+    }else{
+        //Mas se ele exitir recupere o valor pra mim
+        tamanho = parseInt(tamanho.substring(0,2));
+    }
+    //Se for pra aumentar e o tamanho ainda não passou de 15
+    if(par == 'aumentar' && tamanho < 16){
+
+        //incrementa um e seta essa tamanho pro body
+        document.body.style.fontSize = (tamanho+1) + "px";
+
+    //Se for pra diminuir e o tamanho ainda não é menor que 8
+    }else if(par == 'diminuir' && tamanho > 7){
+
+        //decrementa um e seta o tamamnho pro body
+        document.body.style.fontSize = (tamanho-1) + "px";
+    }
+}
+
+
+   </script>
+
+</head>
+<body>
+<div id="wrapper">
+
+	<header>
+		<h2>A verdade pode ser lida em nossas faces</h2>
+		</header>
+
+
+	
+	<nav><!-- top nav -->
+		
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutserie.html">Sobre a Série</a></li>
+				<li><a href="personagens.html">Personagens</a></li>
+				<li><a href="media.html">Multimídia</a></li>
+				<li><a href="about.html">Sobre o blog</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><button type="button" onclick="fonte('aumentar')">Fonte+</button></li>
+            <li><button type="button" onclick="fonte('diminuir')">Fonte-</button></li>
+
+			</ul>
+		</div>
+	</nav><!-- end of top nav -->
+	<section id="main"><!-- #main content and sidebar area -->
+			<section id="content"><!-- #content -->
+			
+        		<article><h2>Séries Relacionadas</h2>
+        			<h3>The Mentalist</h3>
+      <img class="imgr" src="images/mentalist.jpg" alt="" width="650"/><br><br>
+      <p>O Mentalista (no original, The Mentalist) é um seriado policial estadunidense que estreou dia 23 de setembro de 2008, na CBS. Ele gira em torno de Patrick Jane (Simon Baker) que tem um talento especial: observar tudo em seus detalhes. Com seu enorme poder de dedução e observação, ele auxilia a Agência de Investigação da Califórnia a resolver os casos mais intrigantes.</p>
+
+		<p>A série é exibida nos Estados Unidos pelo canal CBS e foi considerada a melhor estreia de 2008, com 15,6 milhões de telespectadores. Em Portugal a série estreou a 12 de Maio de 2009, em canal aberto na RTP2, e a sua estreia no cabo, foi no fim do verão de 2009 nos canais AXN e AXN HD. No Brasil a série é exibida pela Warner Channel e SBT.</p>
+
+		<p>Em 27 de março de 2013, a CBS anunciou que a série foi renovada para uma sexta temporada.</p>
+				</article><br>
+						
+						
+			</section><!-- fim do conteúdo -->
+
+		<aside id="sidebar"><!-- sidebar -->
+				<h3>Olá!</h3>
+				<p>Bem vindo ao site Lie to Me | Mackenzie! Navegue por vídeos, fotos e informações sobre uma das melhores séries polícias da década!</p><br>
+
+					
+				<h3>Publicidade</h3>
+					 <a href="http://fox.canais-fox.pt/lie-to-me"><img src="images/fox.jpg" alt="fox"/></a><br />
+                <a href="http://www.imdb.com/title/tt2699288/"> <img src="images/wanted.jpg" alt="the wanted" /><br /><br /></a>
+
+				<h3>Fale Conosco</h3>
+					<ul>
+						<li><a href="contato.html">Contate-nos por aqui!</a></li>
+					</ul>
+
+		</aside><!-- fim da sidebar -->
+
+	</section>
+	
+		<footer><!-- rodapé -->
+		<section id="footer-area">
+
+			<section id="footer-outer-block">
+					<aside class="footer-segment">
+							<h4>Assista On-line</h4>
+								<ul>
+                           <li><a href="http://lordseriesonlinedublado.blogspot.com.br/2013/03/lie-to-me-1-temporada-dublado-pedido.html">Primeira Temporada</a></li>
+                           <li><a href="http://www.seriesfd.com/2013/01/download-lie-to-me-2a-temporada-rmvb-legendado.html">Segunda Temporada</a></li>
+                           <li><a href="http://www.tudoonlinebr.com/2010/10/assista-online-lie-to-me-3-temporada.html">Terceira Temporada</a></li>
+								</ul>
+					</aside><!-- end of #first footer segment -->
+
+					<aside class="footer-segment">
+							<h4>Séries Relacionadas</h4>
+								<ul>
+									<li><a href="mentalist.html">The Mentalist</a></li>
+									<li><a href="wat.html">Without a Trace</a></li>
+									<li><a href="csi.html">CSI</a></li>
+								</ul>
+					</aside><!-- end of #second footer segment -->
+
+					<aside class="footer-segment">
+							<h4>Curiosidades</h4>
+								<ul>
+									<li><a href="onde.html">Onde estão?</a></li>
+									<li><a href="http://fox.canais-fox.pt/lie-to-me">Site Oficial</a></li>
+									<li><a href="http://www.imdb.com/title/tt1235099/">IMDB</a></li>
+								</ul>
+					</aside><!-- end of #third footer segment -->
+					
+					<aside class="footer-segment">
+							<h4>Sobre Nós</h4>
+								<p>&copy; 2013 <a href="index.html">lietomeUPM.com</a> Site desenvolvido por Danilo Soares.</p>
+					</aside><!-- end of #fourth footer segment -->
+
+			</section><!-- end of footer-outer-block -->
+
+		</section><!-- end of footer-area -->
+	</footer>
+	
+</div>
+</body>
+</html>

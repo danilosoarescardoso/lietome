@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8" />
+   <meta name="description" content="Site sobre a série Lie to Me">
+   <meta name="keywords" content="lie to me, série, fox, crime">
+   <meta name="author" content="Danilo Soares">
+
+	<title>Lie to Me | Personagens</title>
+	<link rel="stylesheet" href="styles.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="print.css" media="print" />
+		<link rel="icon" type="image/jpg" href="images/favicon.ico">
+
+   <script>
+   function fonte(par){
+
+    //recupera o tamanho do fonte no browser
+    tamanho = document.body.style.fontSize;
+    
+    //Se o tamanho da fonte não houver registro de tamanho, sete ele como 10
+    if(!tamanho){
+        alert(tamanho);
+        tamanho = 10;
+        alert(tamanho);
+    }else{
+        //Mas se ele exitir recupere o valor pra mim
+        tamanho = parseInt(tamanho.substring(0,2));
+    }
+    //Se for pra aumentar e o tamanho ainda não passou de 15
+    if(par == 'aumentar' && tamanho < 16){
+
+        //incrementa um e seta essa tamanho pro body
+        document.body.style.fontSize = (tamanho+1) + "px";
+
+    //Se for pra diminuir e o tamanho ainda não é menor que 8
+    }else if(par == 'diminuir' && tamanho > 7){
+
+        //decrementa um e seta o tamamnho pro body
+        document.body.style.fontSize = (tamanho-1) + "px";
+    }
+}
+
+
+   </script>
+
+</head>
+<body>
+<div id="wrapper">
+
+	<header>
+		<h2>A verdade pode ser lida em nossas faces</h2>
+		</header>
+
+
+	
+	<nav><!-- top nav -->
+		
+		<div class="menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutserie.html">Sobre a Série</a></li>
+				<li><a href="personagens.html">Personagens</a></li>
+				<li><a href="media.html">Multimídia</a></li>
+				<li><a href="about.html">Sobre o blog</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><button type="button" onclick="fonte('aumentar')">Fonte+</button></li>
+            <li><button type="button" onclick="fonte('diminuir')">Fonte-</button></li>
+
+			</ul>
+		</div>
+	</nav><!-- end of top nav -->
+	<section id="main"><!-- #main content and sidebar area -->
+			<section id="content"><!-- #content -->
+			
+			<article>
+       		<h2>Personagens</h2>
+      		<h3>Cal Lightman</h3>
+      		<p>Tim Roth</p>
+      		<p><img class="imgr" src="images/cal.jpg" alt="cal" width="300"/><br><br>O Dr. Cal Lightman é um cientista que estuda expressões faciais, linguagem corporal, tipos de voz e palavras para descobrir se uma pessoa está a mentir e porquê. Lightman consegue detectar as chamadas “micro-expressões” – fracções de segundo, expressões faciais involuntárias que revelam o que uma pessoa está a sentir na realidade. A capacidade científica de Lightman pode ser vista tanto como uma bênção como uma maldição à medida que vai descobrindo que os seus familiares e amigos se enganam uns aos outros, tal como os criminosos e estranhos fazem. Lightman dirige uma equipa de peritos na The Lightman Group, uma empresa independente que dá assistência a agências federais, à polícia local, corporações e indivíduos a nível pessoal que tentam lidar com casos bastante complicados.<p>
+      		<hr>
+      		
+      		<h3>Gillian Foster</h3>
+      		<p>Kelli Willians</p>
+      		<p><img class="imgr" src="images/gillian.jpg" alt="cal" width="300"/><br><br>A Dra. Gillian Foster, recentemente divorciada, é uma psicóloga competente e colega de Lightman. Para chegar à verdade, ela concentra-se na voz, palavras e aspectos psicológicos, enquanto Lightman se concentra nas expressões faciais e linguagem corporal. Lightman precisa do ponto de vista de Foster sobre o comportamento humano, quer tenha ou não noção disso.<p>
+      		<hr>
+
+      		<h3>Ria Torres</h3>
+      		<p>Monica Raymond</p>
+      		<p><img class="imgr" src="images/ria.jpg" alt="cal" width="300"/><br><br>Ria Torres é um dos raros talentos naturais no campo da detecção de mentiras, possuindo uma capacidade destreinada de conseguir “ler” as pessoas. Lightman faz o papel de mentor de Torres mas também inveja as suas capacidades inatas que, a ele, demoraram décadas a desenvolver.<p>
+      		<hr>
+
+      		<h3>Eli Loker</h3>
+      		<p>Brendan Hines</p>
+      		<p><img class="imgr" src="images/eli.jpg" alt="cal" width="300"/><br><br>Eli Loker é o investigador de Lightman. Frequentemente, analisa vídeos no laboratório e é especialista no campo da psicologis de grupos. É o protegido de Lightman e Foster mas também quer deixar a sua marca e dar a sua opinião nos casos que tem entre mãos.<p>
+      		<hr>
+
+				</article><br>
+						
+						
+			</section><!-- fim do conteúdo -->
+
+		<aside id="sidebar"><!-- sidebar -->
+				<h3>Olá!</h3>
+				<p>Bem vindo ao site Lie to Me | Mackenzie! Navegue por vídeos, fotos e informações sobre uma das melhores séries polícias da década!</p><br>
+
+					
+				<h3>Publicidade</h3>
+					 <a href="http://fox.canais-fox.pt/lie-to-me"><img src="images/fox.jpg" alt="fox"/></a><br />
+                <a href="http://www.imdb.com/title/tt2699288/"> <img src="images/wanted.jpg" alt="the wanted" /><br /><br /></a>
+
+				<h3>Fale Conosco</h3>
+					<ul>
+						<li><a href="contato.html">Contate-nos por aqui!</a></li>
+					</ul>
+
+		</aside><!-- fim da sidebar -->
+
+	</section>
+	
+		<footer><!-- rodapé -->
+		<section id="footer-area">
+
+			<section id="footer-outer-block">
+					<aside class="footer-segment">
+							<h4>Assista On-line</h4>
+								<ul>
+                           <li><a href="http://lordseriesonlinedublado.blogspot.com.br/2013/03/lie-to-me-1-temporada-dublado-pedido.html">Primeira Temporada</a></li>
+                           <li><a href="http://www.seriesfd.com/2013/01/download-lie-to-me-2a-temporada-rmvb-legendado.html">Segunda Temporada</a></li>
+                           <li><a href="http://www.tudoonlinebr.com/2010/10/assista-online-lie-to-me-3-temporada.html">Terceira Temporada</a></li>
+								</ul>
+					</aside><!-- end of #first footer segment -->
+
+					<aside class="footer-segment">
+							<h4>Séries Relacionadas</h4>
+								<ul>
+									<li><a href="mentalist.html">The Mentalist</a></li>
+									<li><a href="wat.html">Without a Trace</a></li>
+									<li><a href="csi.html">CSI</a></li>
+								</ul>
+					</aside><!-- end of #second footer segment -->
+
+					<aside class="footer-segment">
+							<h4>Curiosidades</h4>
+								<ul>
+									<li><a href="onde.html">Onde estão?</a></li>
+									<li><a href="http://fox.canais-fox.pt/lie-to-me">Site Oficial</a></li>
+									<li><a href="http://www.imdb.com/title/tt1235099/">IMDB</a></li>
+								</ul>
+					</aside><!-- end of #third footer segment -->
+					
+					<aside class="footer-segment">
+							<h4>Sobre Nós</h4>
+								<p>&copy; 2013 <a href="index.html">lietomeUPM.com</a> Site desenvolvido por Danilo Soares.</p>
+					</aside><!-- end of #fourth footer segment -->
+
+			</section><!-- end of footer-outer-block -->
+
+		</section><!-- end of footer-area -->
+	</footer>
+	
+</div>
+</body>
+</html>

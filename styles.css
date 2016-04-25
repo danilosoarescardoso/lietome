@@ -1,0 +1,365 @@
+
+* {
+margin: 0;
+padding: 0;
+}
+
+/* render html5 elements as block */
+header, footer, section, aside, nav, article {
+display: block;
+}
+
+body {
+line-height: 1;
+background: #000;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #666;
+font-size: 14px;
+line-height: 18px;
+}
+	
+/* layout */
+
+#wrapper {
+width: 940px;
+margin: 0 auto;
+margin-top: 5px;
+margin-bottom: 5px;
+-webkit-box-shadow: 3px 3px 7px #777;
+-moz-box-shadow: 3px 3px 7px #777;
+}
+
+nav {
+width: 940px;
+height: 50px;
+margin: 0 auto;
+background: #B22222;
+}
+
+header {
+width: 940px;
+height: 200px;
+margin: 0 auto;
+background: #fff url(images/banner.jpg) no-repeat left top;
+}
+
+#main {
+width: 940px;
+margin: 0 auto;
+padding-top: 30px;
+background: #FFF url(images/colbg.png) repeat-y;
+overflow: hidden;
+}
+
+#content {
+float: right;
+width: 640px;
+margin-right: 30px;
+}
+
+#sidebar {
+float: left;
+padding-left: 20px;
+width: 220px;
+}
+
+footer {
+width: 940px;
+margin: 0 auto;
+clear: both;
+}
+
+/* basics */
+
+@font-face {
+    font-family: 'BlackRoseRegular';
+    src: url('BLACKR-webfont.eot');
+    src: url('BLACKR-webfont.eot?iefix') format('eot'),
+         url('BLACKR-webfont.woff') format('woff'),
+         url('BLACKR-webfont.ttf') format('truetype'),
+         url('BLACKR-webfont.svg#webfont21KuPMyg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2,h3,h4,h5,h6 {
+font-weight: bold;
+clear: both;
+color: #	;
+}
+
+a:link, a:visited {
+color:#085E9B;
+}
+
+a:hover, a:active {
+color: #333;
+}
+
+p {
+margin-bottom: 18px;
+text-align:justify;
+}
+
+li {
+padding-left: 5px;
+}
+
+/* nav */
+
+nav .menu {
+font-size: 16px;
+font-weight: bold;;
+}
+
+nav .menu ul {
+margin: 0;
+padding: 17px 0 0 20px;
+list-style: none;
+line-height: normal;
+}
+
+nav .menu li {
+display: block;
+float: left;
+}
+
+nav .menu a {
+display: block;
+float: left;
+margin-right: 5px;
+padding: 0px 15px;
+text-decoration: none;
+color: #FFFFFF;
+ -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+
+}
+
+nav .menu a:hover {
+text-decoration: none;
+color: #FFFFFF;
+text-shadow: 0 0 5px #000000;
+-webkit-transform: scale(1.5,1.5);
+-moz-transform: scale(1.5,1.5);
+-o-transform: scale(1.5,1.5);
+-ms-transform: scale(1.5,1.5);
+transform: scale(1.5,1.5);
+
+
+}
+
+/** HEADER */
+
+header h1, header h2 {
+margin: 0;
+padding: 0 0 0 30px;
+line-height: normal;
+}
+
+header h1 { 	
+float: left;
+padding-top: 20px; 
+font-family: Century, Verdana, Arial, Helvetica, sans-serif;
+font-size: 60px;
+font-weight: normal;
+}
+
+header h1 a:link, header h1 a:visited {
+text-decoration: none;
+text-shadow: 0px 2px 3px #fff;
+color: #FF0000;
+}
+
+header h2 {
+padding: 20px 0 0 30px;
+font-style: italic;
+font-size: 14px;
+color: #fff;
+}
+
+/** ARTICLES **/
+article img {
+border: none;
+-webkit-box-shadow: 3px 3px 7px #777;
+-moz-box-shadow: 3px 3px 7px #777;
+
+}
+
+#content p, ul, ol, hr {
+margin-bottom: 24px;
+}
+
+#content ul ul, ol ol, ul ol, ol ul {
+margin-bottom: 0;
+}
+
+#content h1, h2, h3, h4, h5, h6 {
+color: #333;
+margin: 0 0 20px 0;
+line-height: 1.5em;
+}
+
+.alignleft, img.alignleft {
+display: inline;
+float: left;
+margin-right: 10px;
+}
+
+.alignright, img.alignright {
+display: inline;
+float: right;
+margin-left: 10px;
+}
+
+.aligncenter, img.aligncenter {
+clear: both;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+table {
+	width: 650px;
+	border:1px solid #000000;
+	border-spacing: 0px;
+	font-size: 16px;
+}
+
+table a, table, tbody, tfoot, tr, th, td {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+table caption {
+	font-size: 1.8em;
+	text-align: left;
+	text-indent: 100px;
+	background: url(images/bg_caption.gif) left top;
+	height: 40px;
+	color: #FFFFFF;
+	border:1px solid #000000; }
+
+thead th {
+	background: url(images/bg_th.gif) left;
+	height: 21px;
+	color: #FFFFFF;
+	font-size: 0.8em;
+	font-family: Arial;
+	font-weight: bold;
+	padding: 0px 7px;
+	margin: 20px 0px 0px;
+	text-align: left; }
+
+tbody tr {	background: #ffffff; }
+
+tbody tr.odd {	background: #f0f0f0; }
+
+tbody th {
+	background: url(images/arrow_white.gif) left center no-repeat;
+	background-position: 5px;
+	padding-left: 40px !important; }
+
+tbody tr.odd th {
+	background: url(images/arrow_grey.gif) left center no-repeat;
+	background-position: 5px;
+	padding-left: 40px !important; }
+
+tbody th, tbody td {
+	font-size: 0.8em;
+	line-height: 1.4em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	padding: 10px 7px;
+	border-bottom: 1px solid #800000;
+	text-align: left; }
+
+tbody a {
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none; }
+
+tbody a:hover {
+	color: #ffffff;
+	text-decoration: underline; }
+
+tbody tr:hover th {
+	background: #800000 url(images/arrow_red.gif) left center no-repeat;
+	background-position: 5px;
+	color: #ffffff; }
+
+tbody tr.odd:hover th {
+	background: #000000 url(images/arrow_black.gif) left center no-repeat;
+	background-position: 5px;
+	color: #ffffff; }
+
+tbody tr:hover th a, tr.odd:hover th a	{
+		 color: #ffffff; }
+
+tbody tr:hover td, tr:hover td a, tr.odd:hover td, tr.odd:hover td a {
+	background: #800000;
+	color: #ffffff;	 }
+
+tbody tr.odd:hover td, tr.odd:hover td a{
+	background: #000000;
+	color: #ffffff;	 }
+
+tfoot th, tfoot td {
+	background: #ffffff url(images/bg_footer.gif) repeat-x bottom;
+	font-size: 0.8em;
+	color: #ffffff;
+	height: 21px;
+	}
+
+/* sidebar and footer widget blocks */
+
+aside h3 {
+font-size: 18px;
+}
+
+aside ul {
+list-style: none;
+margin-bottom: 20px;
+margin-top: -15px;
+}
+
+#footer-area {
+background: #333;
+color: #FFF;
+font-size: 90%;
+padding: 18px 0;
+overflow: hidden;
+}
+
+.footer-segment {
+float: left;
+margin-right: 20px;
+margin-left: 20px;
+width: 190px;
+}
+
+footer aside h4 {
+color: #ddd;
+font-size: 16px;
+line-height: 1.5em;
+}
+
+footer a:link, footer a:visited {
+color: #08B8F9;
+}
+
+footer a:hover {
+	color: #FFFFFF;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+
+}
+
+footer p {
+margin-top: -15px;
+}
